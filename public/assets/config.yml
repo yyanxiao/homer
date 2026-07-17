@@ -1,0 +1,436 @@
+title: YanXiao
+logo: logo.png
+header: true
+footer: <p>使用 <span class="has-text-danger">❤️</span> 强力驱动，基于 <a 
+  href="https://bulma.io/">bulma</a>, <a href="https://vuejs.org/">vuejs</a> & 
+  <a href="https://fontawesome.com/">font awesome</a> // 在 GitHub 上 <a 
+  href="https://github.com/bastienwirtz/homer"><i class="fab fa-github-alt"></i>
+  Fork 此项目</a></p>
+theme: default
+colors:
+  light:
+    highlight-primary: '#3367d6'
+    highlight-secondary: '#4285f4'
+    highlight-hover: '#5a95f5'
+    background: '#f5f5f5'
+    card-background: '#ffffff'
+    text: '#363636'
+    text-header: '#ffffff'
+    text-title: '#303030'
+    text-subtitle: '#424242'
+    card-shadow: rgba(0, 0, 0, 0.1)
+    link: '#3273dc'
+    link-hover: '#363636'
+  dark:
+    highlight-primary: '#3367d6'
+    highlight-secondary: '#4285f4'
+    highlight-hover: '#5a95f5'
+    background: '#131313'
+    card-background: '#2b2b2b'
+    text: '#eaeaea'
+    text-header: '#ffffff'
+    text-title: '#fafafa'
+    text-subtitle: '#f5f5f5'
+    card-shadow: rgba(0, 0, 0, 0.4)
+    link: '#3273dc'
+    link-hover: '#ffdd57'
+links:
+  - name: 维基百科
+    icon: fas fa-book
+    url: https://www.wikipedia.org/
+    target: _blank
+updateIntervalMs: 30000
+services:
+  - name: 常用工具
+    icon: fas fa-tools
+    items:
+      - name: BrowserLeaks 浏览器隐私测试
+        url: https://browserleaks.com/
+        subtitle: 专业的浏览器隐私泄漏与安全检测工具，支持 WebRTC、Canvas 指纹、IP 地理位置等检测。
+        target: _blank
+        tag: 工具
+      - name: Excalidraw 手绘白板
+        url: https://excalidraw.com/
+        subtitle: 这是一个虚拟协作白板工具，可以轻松绘制具有手绘效果的草图和图表。
+        target: _blank
+        tag: 工具
+      - name: Kiddo 儿童教育学习单
+        url: https://www.kiddoworksheets.com/
+        subtitle: 专为儿童设计的免费可打印学习工作单，涵盖数学、英语、手工作画等早教内容。
+        target: _blank
+        tag: 工具
+      - name: NewPipe 播放器
+        url: https://github.com/TeamNewPipe/NewPipe
+        subtitle: Android 平台开源的第三方 YouTube 客户端，支持无广告播放、后台背景播放及视频音频下载。
+        target: _blank
+        tag: 工具
+      - name: PipePipe 播放器
+        url: https://github.com/InfinityLoop1308/PipePipe
+        subtitle: 基于 NewPipe 改造的 Android 端轻量流式客户端，除支持 YouTube 外还支持 Bilibili 和 Niconico 的无广告解析与下载。
+        target: _blank
+        tag: 工具
+      - name: LZT 账号交易市场
+        url: https://lzt.market/
+        subtitle: 俄罗斯 Lolzteam 旗下知名的游戏、社交网络与软件授权账号第三方买卖交易平台。
+        target: _blank
+        tag: 工具
+      - name: Deer 商店托管服务
+        url: https://deer.ee/
+        subtitle: 俄罗斯老牌第三方在线数字商店托管与租用服务平台。
+        target: _blank
+        tag: 工具
+      - name: PNGimg 免费透明背景图库
+        url: https://pngimg.com/
+        subtitle: 全球领先的透明背景 PNG 图像免抠素材库，提供数万张免费高清设计素材。
+        target: _blank
+        tag: 工具
+      - name: Photopea 在线照片编辑器
+        url: https://ps.ittools.cc/
+        subtitle: 免安装的网页版 Photoshop，支持 PSD、AI、Sketch 等多种设计文件格式的编辑与处理。
+        target: _blank
+        tag: 工具
+      - name: HDHive 影视资源站
+        url: https://hdhive.com
+        subtitle: 优质的高清影视资源与影音下载站，提供高码率电影及美剧资源。
+        target: _blank
+        tag: 影视
+      - name: 观影在线影视网
+        url: https://www.xn--ykq321c.com/
+        subtitle: 优质便捷的在线高清影视资源播放平台，支持多线路无广告观影。
+        target: _blank
+        tag: 影视
+      - name: Infini-Cloud 日本网盘服务
+        url: https://infini-cloud.net/en/
+        subtitle: 原 TeraCLOUD，支持高速 WebDAV 挂载协议的日本优质云存储网盘服务.
+        target: _blank
+        tag: 网盘
+  - name: AI 工具
+    icon: fas fa-robot
+    items:
+      - name: Horizon AI 新闻雷达
+        url: https://github.com/Thysrael/Horizon
+        subtitle: 专属的 AI 驱动新闻雷达，每日生成中英文双语简报。
+        tag: Github
+        target: _blank
+      - name: OpenRouter AI 接口网关
+        url: https://openrouter.ai/
+        subtitle: 统一的 AI 模型 API 路由网关，提供各种主流开源与商业大语言模型的按量付费 API 接口。
+        target: _blank
+        tag: 工具
+  - name: Hermes
+    icon: fas fa-cubes
+    items:
+      - name: Matt Pocock AI 编程技能箱
+        url: https://github.com/mattpocock/skills
+        subtitle: 专为现代 AI 编程代理（Claude Code/Codex）设计的模块化软件工程技能包，涵盖 TDD、架构优化与需求对齐。
+        tag: Github
+        target: _blank
+      - name: TradingView MCP 服务端
+        url: https://github.com/atilaahmettaner/tradingview-mcp
+        subtitle: 为 AI Agent (Hermes/Claude) 提供股票、加密及期权行情数据、大盘扫描与策略回测的 MCP 协议集成。
+        tag: Github
+        target: _blank
+      - name: Hermes 飞书流式卡片插件
+        url: https://github.com/baileyh8/hermes-feishu-streaming-card
+        subtitle: 适配飞书消息卡片的流式打字机回复展示插件，为 Hermes Agent 接入飞书提供平滑消息输出支持。
+        tag: Github
+        target: _blank
+      - name: Hermes Atlas 地图集与文档
+        url: https://hermesatlas.com/
+        subtitle: Hermes Agent 的全球部署地图、资源归档与核心开发指南站点。
+        target: _blank
+        tag: 文档
+      - name: Hermes 圣经与配置参考手册
+        url: https://www.hermesbible.com/
+        subtitle: Hermes Agent 的进阶玩法、提示词调优、自定义 Tool/Skill 编写等实用开发参考指南。
+        target: _blank
+        tag: 文档
+      - name: Hermes 官方技能文档
+        url: https://hermes-agent.nousresearch.com/docs/skills
+        subtitle: Hermes Agent 官方技能（Skill）开发与安装指南，涵盖技能目录与最佳实践。
+        target: _blank
+        tag: 文档
+  - name: 技术开发
+    icon: fas fa-code
+    items:
+      - name: 2FA 终端两步验证工具
+        url: https://github.com/wuzf/2fa
+        subtitle: 在 Linux/macOS 终端运行的双因素两步验证命令行工具，用于快速生成 Google Authenticator 动态验证码。
+        tag: Github
+        target: _blank
+      - name: Clash 分流过滤规则集
+        url: https://github.com/Loyalsoldier/clash-rules
+        subtitle: 专为 Clash 订阅定制的防污染、国内域名白名单及常用服务分流规则合集。
+        tag: Github
+        target: _blank
+      - name: Fscarmen WARP 一键脚本
+        url: https://gitlab.com/fscarmen/warp
+        subtitle: 知名的一键为 VPS 服务器配置 Cloudflare WARP 代理、实现双栈（IPv4/IPv6）网络与出海 IP 优化的脚本。
+        tag: Github
+        target: _blank
+      - name: MAS 微软激活脚本
+        url: https://github.com/massgravel/Microsoft-Activation-Scripts
+        subtitle: GitHub 开源的微软 Windows 和 Office 激活脚本工具包，支持 HWID、KMS38、在线 KMS 激活。
+        tag: Github
+        target: _blank
+      - name: NWS 综合测速跑分脚本
+        url: https://nws.sh/
+        subtitle: 基于 bench.sh 的服务器网络速度与硬件性能综合基准测试（Benchmark）一键脚本。
+        tag: Github
+        target: _blank
+      - name: One.IDkey 验证管理平台
+        url: https://one.idkey.cc/
+        subtitle: 基于 Cloudflare Turnstile 和 hCaptcha 的多端身份授权与安全验证管理平台。
+        tag: 工具
+        target: _blank
+      - name: QMediaSync 媒体同步
+        url: https://github.com/chen8945/QMediaSync
+        subtitle: 媒体文件自动同步工具，支持多网盘及本地目录间的高效双向同步。
+        tag: Github
+        target: _blank
+      - name: SublinkPro 订阅转换管理
+        url: https://github.com/ZeroDeng01/sublinkPro
+        subtitle: 一款功能强大的节点订阅转换与节点管理工具，支持多种代理格式 of 互转。
+        tag: Github
+        target: _blank
+      - name: Termius 客户端中文汉化补丁
+        url: https://github.com/ArcSurge/Termius-Pro-zh_CN
+        subtitle: 专业 SSH 客户端工具 Termius 的中文汉化翻译补丁及配置指南。
+        tag: Github
+        target: _blank
+      - name: TgtoDrive 媒体自动化
+        url: https://github.com/walkingddd/TgtoDrive
+        subtitle: 一条龙网盘媒体自动化整理平台。支持从寻找资源、转存整理到 Emby 302 直链播放的全流程打通，重点适配 115、123 和夸克云盘。
+        tag: Github
+        target: _blank
+      - name: VPS 一键重装系统脚本 (reinstall)
+        url: https://github.com/bin456789/reinstall
+        subtitle: GitHub 开源的一键重装系统脚本，支持在 VPS 上无缝重装 Debian、Ubuntu、Windows 等系统。
+        tag: Github
+        target: _blank
+      - name: 科技狮一键运维脚本
+        url: https://github.com/kejilion/sh
+        subtitle: Debian/Ubuntu 一键安装常用开发工具、Docker 容器及 VPS 运维管理脚本。
+        tag: Github
+        target: _blank
+      - name: CloudCone 云服务器托管商
+        url: https://cloudcone.com/
+        subtitle: 知名的高性价比 VPS 和云服务提供商，支持按小时计费与一键弹性扩容。
+        target: _blank
+        tag: 主机
+      - name: GreenCloud VPS 托管服务
+        url: https://greencloudvps.com/
+        subtitle: 热门的高性价比 VPS 托管服务商，以提供大流量及存储型 VPS 见长。
+        target: _blank
+        tag: 主机
+      - name: Netcup 德国服务器托管商
+        url: https://www.netcup.com/en
+        subtitle: 德国知名的主机托管商，提供极具性价比的 root 专属服务器和 VPS 服务。
+        target: _blank
+        tag: 主机
+      - name: Cloudflare 网络与安全服务
+        url: https://www.cloudflare.com/
+        subtitle: 全球领先的 CDN、DNS、DDoS 防护及边缘计算网络服务平台。
+        target: _blank
+        tag: 域名
+      - name: Name.com 域名注册商
+        url: https://www.name.com
+        subtitle: 知名国际域名注册服务商，提供域名注册、托管及 SSL 证书 service。
+        target: _blank
+        tag: 域名
+      - name: NameSilo 域名注册商
+        url: https://www.namesilo.com/
+        subtitle: 性价比极高的国际域名注册商，提供免费的永久隐私保护与简洁易用的域名管理。
+        target: _blank
+        tag: 域名
+      - name: Tailscale 异地组网
+        url: https://tailscale.com/
+        subtitle: 基于 WireGuard 协议的零配置虚拟局域网工具，安全地将个人设备、服务器连接至同一私有网络。
+        target: _blank
+        tag: 工具
+      - name: Healthchecks.io 计划任务监控
+        url: https://Healthchecks.io
+        subtitle: 基于 Cron 的哨兵监控服务，当备份或定期计划任务未按时运行或失败时发送警报。
+        target: _blank
+        tag: 监控
+  - name: 阅读资讯
+    icon: fas fa-book-open
+    items:
+      - name: LowEndTalk 主机论坛
+        url: https://lowendtalk.com/
+        subtitle: 领先 of 海外主机托管与 VPS 交流社区论坛，提供真实行业讨论、服务商优惠及用户评价。
+        target: _blank
+        tag: 主机
+      - name: IDCFlare 技术论坛
+        url: https://idcflare.com/
+        subtitle: 专注于服务器运维、数据中心（IDC）、域名及网络技术的主题交流社区论坛。
+        target: _blank
+        tag: 论坛
+      - name: NodeSeek 主机论坛
+        url: https://www.nodeseek.com/
+        subtitle: 优质的 VPS 服务器、网络技术交流与独立博主分享社区。
+        target: _blank
+        tag: 主机
+      - name: LINUX DO 技术社区
+        url: https://linux.do/
+        subtitle: 活跃的 Linux 运维、前沿技术探讨、开源软件分享及极客互动交流社区。
+        target: _blank
+        tag: 论坛
+      - name: V2EX 程序员创意社区
+        url: https://www.v2ex.com/
+        subtitle: 面向程序员及极客的交流平台，分享创意、技术探讨与生活趣事。
+        target: _blank
+        tag: 论坛
+      - name: X (前 Twitter) 社交平台
+        url: https://x.com/home
+        subtitle: 全球领先的实时社交媒体与资讯获取平台，紧跟行业前沿资讯。
+        target: _blank
+        tag: 论坛
+      - name: Google CodeWiki 编码规范
+        url: https://codewiki.google/
+        subtitle: 谷歌官方编写 of 多语言编程风格指南、代码设计及开发最佳实践沉淀。
+        target: _blank
+        tag: 文档
+  - name: 金融投资
+    icon: fas fa-chart-line
+    items:
+      - name: AI-Berkshire 价值投资框架
+        url: https://github.com/xbtlin/ai-berkshire
+        subtitle: 基于大语言模型与多 Agent 协同构建的价值投资研究框架，深度整合巴菲特、芒格、段永平、李录等大师的投资方法论。
+        tag: Github
+        target: _blank
+      - name: OpenBB 开源金融数据平台
+        url: https://github.com/OpenBB-finance/OpenBB#1-installation
+        subtitle: 专为量化开发者与分析师打造的开源金融数据终端及数据路由工具包，支持接入 FRED、Yahoo Finance 等多源数据。
+        target: _blank
+        tag: Github
+      - name: Tradier 开发者期权美股券商
+        url: https://tradier.com/
+        subtitle: 专为开发者和算法交易设计的美国本土券商，提供功能强大的 REST API 接口。
+        tag: 券商
+        target: _blank
+      - name: 嘉信理财 (Charles Schwab)
+        url: https://www.schwab.com/
+        subtitle: 全球领先的金融服务机构，提供证券交易、财富管理及资产托管服务。
+        target: _blank
+        tag: 券商
+      - name: FiNews 财经新闻聚合
+        url: https://finews.elsetech.app/
+        subtitle: 高效的全球金融与财经新闻聚合阅读平台，帮助投资者快速获取市场动态与资讯。
+        target: _blank
+        tag: 新闻
+      - name: Barchart 财经与大宗商品行情
+        url: https://www.barchart.com
+        subtitle: 全球领先的金融研究平台，提供股票、期权、期货以及大宗商品的实时行情与技术分析。
+        tag: 期权
+        target: _blank
+      - name: Market Chameleon QQQ 隐含波动率 (IV)
+        url: https://marketchameleon.com/Overview/QQQ/IV/
+        subtitle: 专业的 QQQ ETF 隐含波动率、历史 IV 排名及波动率偏斜数据分析平台。
+        tag: 期权
+        target: _blank
+      - name: OptionStrat 期权策略可视化
+        url: https://optionstrat.com
+        subtitle: 强大的期权交易策略构建与盈亏可视化分析工具，支持各种复杂组合的模拟回测。
+        tag: 期权
+        target: _blank
+      - name: Unusual Whales QQQ 希腊字母敞口监控
+        url: https://unusualwhales.com/stock/QQQ/greek-exposure
+        subtitle: 实时追踪 QQQ 做市商 Gamma/GEX 敞口、希腊字母分布及隐含波动率走势的量化监控端。
+        target: _blank
+        tag: 期权
+      - name: QuantWheel 实时 GEX 计算器
+        url: https://quantwheel.com/tools/gex-calculator
+        subtitle: 基于最新期权链数据实时计算美股大盘指数 GEX（Gamma 敞口）与零 Gamma 水位线分布的量化工具。
+        target: _blank
+        tag: 期权
+      - name: 美股买入看涨期权盈亏计算器
+        url: https://www.optionsprofitcalculator.com/calculator/long-call.html
+        subtitle: 直观且强大的美股 Long Call 期权到期/未到期期望利润分布热力图及盈亏区间估算计算器。
+        tag: 期权
+        target: _blank
+      - name: Arkham 链上钱包数据挖掘分析平台
+        url: https://arkm.com
+        subtitle: 通过 AI 关联现实实体与去中心化钱包地址，实现地址标签穿透、大额转账异动提醒及链上筹码分布追踪。
+        target: _blank
+      - name: Barchart QQQ 季节性分析
+        url: https://www.barchart.com/etfs-funds/quotes/QQQ/seasonality-chart
+        subtitle: 纳斯达克100 ETF (QQQ) 的历史季节性规律分析图表，揭示其在一年中不同月份的传统强弱表现。
+        target: _blank
+      - name: Capitol Trades 国会交易跟踪
+        url: https://www.capitoltrades.com/
+        subtitle: 追踪美国国会参众两院议员及政界政客的实时股票交易数据，为投资研究提供政要资金风向标分析。
+        target: _blank
+      - name: DQYDJ 财经数据计算器
+        url: https://dqydj.com/
+        subtitle: 提供美国股票、地产收益、通胀计算、个人净资产分位数及家庭收入分布等实用金融计算工具。
+        target: _blank
+      - name: Dataroma 机构超级持仓追踪
+        url: https://www.dataroma.com/m/home.php
+        subtitle: 跟踪巴菲特、芒格、阿克曼等华尔街超级投资经理及知名基金的实时买入与最新美股持仓变动。
+        target: _blank
+      - name: Finviz 美股可视化筛选器
+        url: https://finviz.com/
+        subtitle: 提供强大的美股筛选器、市场热力图、技术分析图表以及个股财报与内部人交易汇总数据的专业金融分析平台。
+        target: _blank
+      - name: Koyfin 专业金融分析终端
+        url: https://www.koyfin.com/
+        subtitle: 彭博终端的优秀替代品，提供全球股票、基金、指数的财务对比图表、技术指标及估值倍数追踪。
+        target: _blank
+      - name: Macrotrends 宏观历史趋势图表
+        url: https://www.macrotrends.net/
+        subtitle: 长达数十年的全球主要经济体 GDP、黄金、原油、白银及重要美股个股估值的历史宏观趋势可视化平台。
+        target: _blank
+      - name: OpenInsider 美股内部人交易追踪
+        url: http://openinsider.com/
+        subtitle: 实时解析 SEC Form 4 申报数据，提供美股上市公司高管及大股东内部人买卖（Insider 
+          Trading）的筛选与分析平台。
+        target: _blank
+      - name: Polymarket 链上预测市场
+        url: https://polymarket.com/zh
+        subtitle: 全球领先的去中心化预测交易市场，用户可针对政治、经济、娱乐及热点事件的概率进行对赌与预测。
+        target: _blank
+      - name: Stock Analysis 美股数据分析网
+        url: https://stockanalysis.com/
+        subtitle: 免费美股数据分析终端，提供全球 130,000+ 股票和基金的精准财报、盘前异动、IPO 日历及历史图表。
+        target: _blank
+      - name: Stockcircle 大师持仓跟踪网
+        url: https://stockcircle.com/
+        subtitle: 跟踪与分析全球顶尖投资大师（如巴菲特、木头姐、李录等）及对冲基金的最新 13F 持仓变动与历史业绩表现。
+        target: _blank
+      - name: StraitsX 新加坡数字支付支付网关
+        url: https://www.straitsx.com/
+        subtitle: 东南亚领先的合规数字资产支付基础设施，发行 XSGD、XIDR 等合规合法的稳定币。
+        target: _blank
+      - name: Trading Economics 贸易经济学全球宏观数据
+        url: https://tradingeconomics.com/
+        subtitle: 覆盖全球 196 个国家和地区的历史宏观经济指标、国债收益率、大宗商品价格及经济数据日历。
+        target: _blank
+      - name: TradingGrader 交易技术形态评估
+        url: https://www.tradinggrader.com/
+        subtitle: 基于多重趋势指标和量价表现对特定股票、ETF 进行综合量化评分与交易机会识别的评估 system。
+        target: _blank
+      - name: TradingView 金融图表
+        url: https://www.tradingview.com/
+        subtitle: 全球领先的金融图表分析与社交交易平台，支持股票、期货、外汇行情和各类技术指标。
+        target: _blank
+      - name: Truflation 链上实时美国通胀率
+        url: https://truflation.com/marketplace/us-inflation-rate
+        subtitle: 基于链上数百万日常消费物价采集点计算出的日更式、透明无操纵的真实实时美国 CPI 通胀指数。
+        target: _blank
+      - name: WhaleWisdom 13F 机构持仓查询
+        url: https://whalewisdom.com/
+        subtitle: 专业的 SEC 13F 机构持仓数据分析与追踪平台，支持大户买卖排行、筹码集中度及主力资金动向查询。
+        target: _blank
+      - name: 学习巴菲特价值投资网
+        url: https://learnbuffett.com/
+        subtitle: 精选巴菲特和芒格历年股东信、演讲录音、问答记录以及专业价值投资教学的文章与材料。
+        target: _blank
+      - name: 懒人资产配置与 ETF 分析
+        url: https://www.lazyportfolioetf.com/
+        subtitle: 提供经典懒人投资组合（如永久组合、全天候组合）的回测分析、资产配置建议与 ETF 挑选工具。
+        target: _blank
+      - name: 美国投资指南 (HowLifeUSA)
+        url: https://invest.howlifeusa.com/zh/
+        subtitle: 系统化介绍美股投资基础、宏观经济政策指标、公司价值估值模型以及主流技术分析工具的深度指南网。
+        target: _blank
