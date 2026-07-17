@@ -6,7 +6,7 @@ footer: <p>使用 <span class="has-text-danger">❤️</span> 强力驱动，基
   <a href="https://fontawesome.com/">font awesome</a> // 在 GitHub 上 <a 
   href="https://github.com/bastienwirtz/homer"><i class="fab fa-github-alt"></i>
   Fork 此项目</a></p>
-theme: default
+theme: walkxcode
 colors:
   light:
     highlight-primary: '#3367d6'
