@@ -153,6 +153,11 @@ services:
   - name: 技术开发
     icon: fas fa-code
     items:
+      - name: Authelia 统一认证网关
+        url: https://github.com/authelia/authelia
+        subtitle: 开源的自托管单点登录（SSO）与多因子（MFA）身份验证门户，可无缝对接反向代理保护内网服务。
+        tag: Github
+        target: _blank
       - name: 2FA 终端两步验证工具
         url: https://github.com/wuzf/2fa
         subtitle: 在 Linux/macOS 终端运行的双因素两步验证命令行工具，用于快速生成 Google Authenticator 动态验证码。
