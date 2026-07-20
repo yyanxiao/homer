@@ -178,6 +178,11 @@ services:
         subtitle: GitHub 开源的微软 Windows 和 Office 激活脚本工具包，支持 HWID、KMS38、在线 KMS 激活。
         tag: Github
         target: _blank
+      - name: NodeQuality 综合测试脚本
+        url: https://nodequality.com/
+        subtitle: 融合 Yabs、IPQuality 和 NetQuality 核心功能的无痕服务器测试脚本，支持自动截图及一键导出排版报告。
+        tag: Github
+        target: _blank
       - name: NWS 综合测速跑分脚本
         url: https://nws.sh/
         subtitle: 基于 bench.sh 的服务器网络速度与硬件性能综合基准测试（Benchmark）一键脚本。
