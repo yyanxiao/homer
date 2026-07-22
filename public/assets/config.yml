@@ -153,6 +153,11 @@ services:
   - name: 技术开发
     icon: fas fa-code
     items:
+      - name: 小隐寺官方论坛
+        url: https://forum.xiaoyinsi.com/
+        subtitle: 小隐寺官方交流社区与论坛，涵盖美股、加密货币量化交易、宏观投研及交易员读书路线讨论。
+        tag: 社区
+        target: _blank
       - name: Authelia 统一认证网关
         url: https://github.com/authelia/authelia
         subtitle: 开源的自托管单点登录（SSO）与多因子（MFA）身份验证门户，可无缝对接反向代理保护内网服务。
