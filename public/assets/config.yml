@@ -153,6 +153,11 @@ services:
   - name: 技术开发
     icon: fas fa-code
     items:
+      - name: Squarespace 域名与建站平台
+        url: https://www.squarespace.com/
+        subtitle: 知名全能型建站与域名托管平台（原 Google Domains 域名业务已全量迁移至 Squarespace）。
+        tag: 工具
+        target: _blank
       - name: Google Workspace 11元/年顶级域名注册教程
         url: https://linux.do/t/topic/2291068
         subtitle: LINUX DO 社区神帖：利用 Google Workspace 土耳其区 75 里拉（约 11~14 RMB）低价购买并同价续费 com/net 顶级域名实操指南。
