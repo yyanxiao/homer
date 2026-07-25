@@ -153,6 +153,11 @@ services:
   - name: 技术开发
     icon: fas fa-code
     items:
+      - name: Google Workspace 11元/年顶级域名注册教程
+        url: https://linux.do/t/topic/2291068
+        subtitle: LINUX DO 社区神帖：利用 Google Workspace 土耳其区 75 里拉（约 11~14 RMB）低价购买并同价续费 com/net 顶级域名实操指南。
+        tag: 羊毛
+        target: _blank
       - name: 小隐寺官方论坛
         url: https://forum.xiaoyinsi.com/
         subtitle: 小隐寺官方交流社区与论坛，涵盖美股、加密货币量化交易、宏观投研及交易员读书路线讨论。
