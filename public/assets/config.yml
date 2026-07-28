@@ -99,6 +99,11 @@ services:
         subtitle: 优质便捷的在线高清影视资源播放平台，支持多线路无广告观影。
         target: _blank
         tag: 影视
+      - name: BT影视 4K高清迅雷电影下载
+        url: https://www.btbtla.com/
+        subtitle: 4K高清电影、蓝光迅雷资源及最新电视剧BT种子下载站。
+        target: _blank
+        tag: 影视
       - name: Infini-Cloud 日本网盘服务
         url: https://infini-cloud.net/en/
         subtitle: 原 TeraCLOUD，支持高速 WebDAV 挂载协议的日本优质云存储网盘服务.
