@@ -117,11 +117,26 @@ services:
 - name: AI 工具
   icon: fas fa-robot
   items:
+  - name: Artificial Analysis 模型智商与性能排行榜
+    url: https://artificialanalysis.ai/leaderboards/models
+    subtitle: 独立评测与排名 250+ 主流大语言模型 (LLM)，涵盖智商指数、Token 价格、响应延迟与输出速度等多维数据。
+    target: _blank
+    tag: 工具
   - name: Horizon AI 新闻雷达
     url: https://github.com/Thysrael/Horizon
     subtitle: 专属的 AI 驱动新闻雷达，每日生成中英文双语简报。
     tag: Github
     target: _blank
+  - name: LLM Stats 综合 AI 模型排行榜
+    url: https://llm-stats.com/
+    subtitle: 独立评估与排名 300+ 顶尖 AI 模型，实时聚合推理、代码、数学及基准测试表现与 API 计费。
+    target: _blank
+    tag: 工具
+  - name: LMSYS Code Arena WebDev AI 竞技场
+    url: https://arena.ai/leaderboard/code/webdev
+    subtitle: LMSYS Code Arena 前端与 Web 开发 AI 模型竞技场，提供基于真实用户盲测的多步推理与 Agent 编码能力排名。
+    target: _blank
+    tag: 工具
   - name: OpenRouter AI 接口网关
     url: https://openrouter.ai/
     subtitle: 统一的 AI 模型 API 路由网关，提供各种主流开源与商业大语言模型的按量付费 API 接口。
