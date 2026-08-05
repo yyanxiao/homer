@@ -68,6 +68,11 @@ services:
     subtitle: 优质的高清影视资源与影音下载站，提供高码率电影及美剧资源。
     target: _blank
     tag: 影视
+  - name: IPSuper IP风险信息聚合查询
+    url: https://ipsuper.com/
+    subtitle: 一站式多数据库 IP 风险、原生/家宽/机房识别及代理检测。
+    target: _blank
+    tag: 工具
   - name: IPinfo IP数据情报平台
     url: https://ipinfo.io/
     subtitle: 全球领先的 IP 地址数据情报与地理位置 API 平台，支持 IP 定位、ASN 及代理检测。
