@@ -147,6 +147,11 @@ services:
     subtitle: 统一的 AI 模型 API 路由网关，提供各种主流开源与商业大语言模型的按量付费 API 接口。
     target: _blank
     tag: 工具
+  - name: PriceAI AI比价雷达
+    url: https://priceai.cc/
+    subtitle: AI 低价卡网订阅与中转 API 比价雷达，聚合模型渠道价格。
+    target: _blank
+    tag: AI
 - name: Hermes
   icon: fas fa-cubes
   items:
