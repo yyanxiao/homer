@@ -360,56 +360,6 @@ services:
     subtitle: 基于大语言模型与多 Agent 协同构建的价值投资研究框架，深度整合巴菲特、芒格、段永平、李录等大师的投资方法论。
     tag: Github
     target: _blank
-  - name: OpenBB 开源金融数据平台
-    url: https://github.com/OpenBB-finance/OpenBB#1-installation
-    subtitle: 专为量化开发者与分析师打造的开源金融数据终端及数据路由工具包，支持接入 FRED、Yahoo Finance 等多源数据。
-    target: _blank
-    tag: Github
-  - name: Tradier 开发者期权美股券商
-    url: https://tradier.com/
-    subtitle: 专为开发者和算法交易设计的美国本土券商，提供功能强大的 REST API 接口。
-    tag: 券商
-    target: _blank
-  - name: 嘉信理财 (Charles Schwab)
-    url: https://www.schwab.com/
-    subtitle: 全球领先的金融服务机构，提供证券交易、财富管理及资产托管服务。
-    target: _blank
-    tag: 券商
-  - name: FiNews 财经新闻聚合
-    url: https://finews.elsetech.app/
-    subtitle: 高效的全球金融与财经新闻聚合阅读平台，帮助投资者快速获取市场动态与资讯。
-    target: _blank
-    tag: 新闻
-  - name: Barchart 财经与大宗商品行情
-    url: https://www.barchart.com
-    subtitle: 全球领先的金融研究平台，提供股票、期权、期货以及大宗商品的实时行情与技术分析。
-    tag: 期权
-    target: _blank
-  - name: Market Chameleon QQQ 隐含波动率 (IV)
-    url: https://marketchameleon.com/Overview/QQQ/IV/
-    subtitle: 专业的 QQQ ETF 隐含波动率、历史 IV 排名及波动率偏斜数据分析平台。
-    tag: 期权
-    target: _blank
-  - name: OptionStrat 期权策略可视化
-    url: https://optionstrat.com
-    subtitle: 强大的期权交易策略构建与盈亏可视化分析工具，支持各种复杂组合的模拟回测。
-    tag: 期权
-    target: _blank
-  - name: Unusual Whales QQQ 希腊字母敞口监控
-    url: https://unusualwhales.com/stock/QQQ/greek-exposure
-    subtitle: 实时追踪 QQQ 做市商 Gamma/GEX 敞口、希腊字母分布及隐含波动率走势的量化监控端。
-    target: _blank
-    tag: 期权
-  - name: QuantWheel 实时 GEX 计算器
-    url: https://quantwheel.com/tools/gex-calculator
-    subtitle: 基于最新期权链数据实时计算美股大盘指数 GEX（Gamma 敞口）与零 Gamma 水位线分布的量化工具。
-    target: _blank
-    tag: 期权
-  - name: 美股买入看涨期权盈亏计算器
-    url: https://www.optionsprofitcalculator.com/calculator/long-call.html
-    subtitle: 直观且强大的美股 Long Call 期权到期/未到期期望利润分布热力图及盈亏区间估算计算器。
-    tag: 期权
-    target: _blank
   - name: Arkham 链上钱包数据挖掘分析平台
     url: https://arkm.com
     subtitle: 通过 AI 关联现实实体与去中心化钱包地址，实现地址标签穿透、大额转账异动提醒及链上筹码分布追踪。
@@ -417,6 +367,11 @@ services:
   - name: Barchart QQQ 季节性分析
     url: https://www.barchart.com/etfs-funds/quotes/QQQ/seasonality-chart
     subtitle: 纳斯达克100 ETF (QQQ) 的历史季节性规律分析图表，揭示其在一年中不同月份的传统强弱表现。
+    target: _blank
+  - name: Barchart 财经与大宗商品行情
+    url: https://www.barchart.com
+    subtitle: 全球领先的金融研究平台，提供股票、期权、期货以及大宗商品的实时行情与技术分析。
+    tag: 期权
     target: _blank
   - name: Capitol Trades 国会交易跟踪
     url: https://www.capitoltrades.com/
@@ -430,10 +385,20 @@ services:
     url: https://www.dataroma.com/m/home.php
     subtitle: 跟踪巴菲特、芒格、阿克曼等华尔街超级投资经理及知名基金的实时买入与最新美股持仓变动。
     target: _blank
+  - name: FiNews 财经新闻聚合
+    url: https://finews.elsetech.app/
+    subtitle: 高效的全球金融与财经新闻聚合阅读平台，帮助投资者快速获取市场动态与资讯。
+    target: _blank
+    tag: 新闻
   - name: Finviz 美股可视化筛选器
     url: https://finviz.com/
     subtitle: 提供强大的美股筛选器、市场热力图、技术分析图表以及个股财报与内部人交易汇总数据的专业金融分析平台。
     target: _blank
+  - name: GreedyFear 全球市场恐慌与贪婪指数
+    url: https://www.greedyfear.com/
+    subtitle: 实时聚合加密货币、美股、欧股及印度等全球主要市场的恐慌与贪婪情绪仪表盘。
+    target: _blank
+    tag: 金融
   - name: Koyfin 专业金融分析终端
     url: https://www.koyfin.com/
     subtitle: 彭博终端的优秀替代品，提供全球股票、基金、指数的财务对比图表、技术指标及估值倍数追踪。
@@ -442,14 +407,34 @@ services:
     url: https://www.macrotrends.net/
     subtitle: 长达数十年的全球主要经济体 GDP、黄金、原油、白银及重要美股个股估值的历史宏观趋势可视化平台。
     target: _blank
+  - name: Market Chameleon QQQ 隐含波动率 (IV)
+    url: https://marketchameleon.com/Overview/QQQ/IV/
+    subtitle: 专业的 QQQ ETF 隐含波动率、历史 IV 排名及波动率偏斜数据分析平台。
+    tag: 期权
+    target: _blank
+  - name: OpenBB 开源金融数据平台
+    url: https://github.com/OpenBB-finance/OpenBB#1-installation
+    subtitle: 专为量化开发者与分析师打造的开源金融数据终端及数据路由工具包，支持接入 FRED、Yahoo Finance 等多源数据。
+    target: _blank
+    tag: Github
   - name: OpenInsider 美股内部人交易追踪
     url: http://openinsider.com/
     subtitle: 实时解析 SEC Form 4 申报数据，提供美股上市公司高管及大股东内部人买卖（Insider Trading）的筛选与分析平台。
+    target: _blank
+  - name: OptionStrat 期权策略可视化
+    url: https://optionstrat.com
+    subtitle: 强大的期权交易策略构建与盈亏可视化分析工具，支持各种复杂组合的模拟回测。
+    tag: 期权
     target: _blank
   - name: Polymarket 链上预测市场
     url: https://polymarket.com/zh
     subtitle: 全球领先的去中心化预测交易市场，用户可针对政治、经济、娱乐及热点事件的概率进行对赌与预测。
     target: _blank
+  - name: QuantWheel 实时 GEX 计算器
+    url: https://quantwheel.com/tools/gex-calculator
+    subtitle: 基于最新期权链数据实时计算美股大盘指数 GEX（Gamma 敞口）与零 Gamma 水位线分布的量化工具。
+    target: _blank
+    tag: 期权
   - name: Stock Analysis 美股数据分析网
     url: https://stockanalysis.com/
     subtitle: 免费美股数据分析终端，提供全球 130,000+ 股票和基金的精准财报、盘前异动、IPO 日历及历史图表。
@@ -461,6 +446,11 @@ services:
   - name: StraitsX 新加坡数字支付支付网关
     url: https://www.straitsx.com/
     subtitle: 东南亚领先的合规数字资产支付基础设施，发行 XSGD、XIDR 等合规合法的稳定币。
+    target: _blank
+  - name: Tradier 开发者期权美股券商
+    url: https://tradier.com/
+    subtitle: 专为开发者和算法交易设计的美国本土券商，提供功能强大的 REST API 接口。
+    tag: 券商
     target: _blank
   - name: Trading Economics 贸易经济学全球宏观数据
     url: https://tradingeconomics.com/
@@ -478,10 +468,20 @@ services:
     url: https://truflation.com/marketplace/us-inflation-rate
     subtitle: 基于链上数百万日常消费物价采集点计算出的日更式、透明无操纵的真实实时美国 CPI 通胀指数。
     target: _blank
+  - name: Unusual Whales QQQ 希腊字母敞口监控
+    url: https://unusualwhales.com/stock/QQQ/greek-exposure
+    subtitle: 实时追踪 QQQ 做市商 Gamma/GEX 敞口、希腊字母分布及隐含波动率走势的量化监控端。
+    target: _blank
+    tag: 期权
   - name: WhaleWisdom 13F 机构持仓查询
     url: https://whalewisdom.com/
     subtitle: 专业的 SEC 13F 机构持仓数据分析与追踪平台，支持大户买卖排行、筹码集中度及主力资金动向查询。
     target: _blank
+  - name: 嘉信理财 (Charles Schwab)
+    url: https://www.schwab.com/
+    subtitle: 全球领先的金融服务机构，提供证券交易、财富管理及资产托管服务。
+    target: _blank
+    tag: 券商
   - name: 学习巴菲特价值投资网
     url: https://learnbuffett.com/
     subtitle: 精选巴菲特和芒格历年股东信、演讲录音、问答记录以及专业价值投资教学的文章与材料。
@@ -493,4 +493,9 @@ services:
   - name: 美国投资指南 (HowLifeUSA)
     url: https://invest.howlifeusa.com/zh/
     subtitle: 系统化介绍美股投资基础、宏观经济政策指标、公司价值估值模型以及主流技术分析工具的深度指南网。
+    target: _blank
+  - name: 美股买入看涨期权盈亏计算器
+    url: https://www.optionsprofitcalculator.com/calculator/long-call.html
+    subtitle: 直观且强大的美股 Long Call 期权到期/未到期期望利润分布热力图及盈亏区间估算计算器。
+    tag: 期权
     target: _blank
