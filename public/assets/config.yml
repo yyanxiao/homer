@@ -152,6 +152,11 @@ services:
     subtitle: AI 低价卡网订阅与中转 API 比价雷达，聚合模型渠道价格。
     target: _blank
     tag: AI
+  - name: Factory AI 自主软件工程平台
+    url: https://app.factory.ai/
+    subtitle: 硅谷顶尖 AI 自主编程平台，提供 Droid 自动化软件研发与多模型协同。
+    target: _blank
+    tag: AI
 - name: Hermes
   icon: fas fa-cubes
   items:
