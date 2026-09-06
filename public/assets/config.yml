@@ -124,6 +124,11 @@ services:
     subtitle: 面向 NAS 与家庭影音的开源媒体管理系统，支持刮削、网盘 STRM 及 Emby 协议。
     target: _blank
     tag: Github
+  - name: Flightradar24 全球航班实时雷达
+    url: https://www.flightradar24.com/
+    subtitle: 全球知名实时航班追踪与空中交通雷达平台，支持航线、高度及机型查询。
+    target: _blank
+    tag: 工具
 - name: AI 工具
   icon: fas fa-robot
   items:
