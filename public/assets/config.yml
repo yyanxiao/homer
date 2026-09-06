@@ -119,6 +119,11 @@ services:
     subtitle: 优质便捷的在线高清影视资源播放平台，支持多线路无广告观影。
     target: _blank
     tag: 影视
+  - name: MeBox 私人媒体中心
+    url: https://github.com/truewhile/MeBox
+    subtitle: 面向 NAS 与家庭影音的开源媒体管理系统，支持刮削、网盘 STRM 及 Emby 协议。
+    target: _blank
+    tag: Github
 - name: AI 工具
   icon: fas fa-robot
   items:
