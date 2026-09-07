@@ -129,6 +129,11 @@ services:
     subtitle: 全球知名实时航班追踪与空中交通雷达平台，支持航线、高度及机型查询。
     target: _blank
     tag: 工具
+  - name: RE0 影视资料与流媒体榜单
+    url: https://re0.me/
+    subtitle: 整理电影、剧集、系列、公开片单与流媒体榜单的影视资料平台。
+    target: _blank
+    tag: 影视
 - name: AI 工具
   icon: fas fa-robot
   items:
