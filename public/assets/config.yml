@@ -139,6 +139,11 @@ services:
     subtitle: 全球知名船舶实时动态与 AIS 航运监控平台，支持港口与航线追踪。
     target: _blank
     tag: 工具
+  - name: SatelliteMap 全球卫星与星链实时追踪
+    url: https://satellitemap.space/
+    subtitle: 3D 交互式实时卫星地图，支持星链卫星星座、空间站及过境轨迹追踪。
+    target: _blank
+    tag: 工具
 - name: AI 工具
   icon: fas fa-robot
   items:
