@@ -144,6 +144,26 @@ services:
     subtitle: 3D 交互式实时卫星地图，支持星链卫星星座、空间站及过境轨迹追踪。
     target: _blank
     tag: 工具
+  - name: LightningMaps 全球实时雷电与闪电地图
+    url: https://www.lightningmaps.org/
+    subtitle: 全球社区驱动的实时雷电活动地图，显示落雷位置及雷声传播波前。
+    target: _blank
+    tag: 工具
+  - name: Submarine Cable Map 全球海底光缆地图
+    url: https://www.submarinecablemap.com/
+    subtitle: 全球海底通信光缆与登陆站交互式地图，直观呈现跨国互联网基础设施。
+    target: _blank
+    tag: 工具
+  - name: Ventusky 全球实时天气与气象风场地图
+    url: https://www.ventusky.com/zh#p=1.3;103.9;5
+    subtitle: 高清交互式气象可视化平台，呈现全球风场、降水、气温与气压动态。
+    target: _blank
+    tag: 工具
+  - name: Radio Garden 3D地球全球电台探索
+    url: https://radio.garden/
+    subtitle: 旋转 3D 地球仪探索全球数千个本地广播电台，实时收听世界各地的声音。
+    target: _blank
+    tag: 工具
 - name: AI 工具
   icon: fas fa-robot
   items:
