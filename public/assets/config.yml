@@ -134,6 +134,11 @@ services:
     subtitle: 整理电影、剧集、系列、公开片单与流媒体榜单的影视资料平台。
     target: _blank
     tag: 影视
+  - name: MarineTraffic 全球船舶实时追踪
+    url: https://www.marinetraffic.com/
+    subtitle: 全球知名船舶实时动态与 AIS 航运监控平台，支持港口与航线追踪。
+    target: _blank
+    tag: 工具
 - name: AI 工具
   icon: fas fa-robot
   items:
