@@ -314,6 +314,11 @@ services:
     subtitle: 一条龙网盘媒体自动化整理平台。支持从寻找资源、转存整理到 Emby 302 直链播放的全流程打通，重点适配 115、123 和夸克云盘。
     tag: Github
     target: _blank
+  - name: Embykeeper 自动签到与保号工具
+    url: https://github.com/emby-keeper/emby-keeper
+    subtitle: 面向 Emby 服务器与 TG 机器人的自动化签到、定时保号及按需互动工具。
+    tag: Github
+    target: _blank
   - name: VPS 一键重装系统脚本 (reinstall)
     url: https://github.com/bin456789/reinstall
     subtitle: GitHub 开源的一键重装系统脚本，支持在 VPS 上无缝重装 Debian、Ubuntu、Windows 等系统。
