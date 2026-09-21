@@ -164,6 +164,11 @@ services:
     subtitle: 旋转 3D 地球仪探索全球数千个本地广播电台，实时收听世界各地的声音。
     target: _blank
     tag: 工具
+  - name: 癫影 影视资源与分享平台
+    url: https://m.dian115.com/
+    subtitle: 优质高清影视资源汇总与分享平台，提供电影、剧集及网盘资源索引。
+    target: _blank
+    tag: 影视
 - name: AI 工具
   icon: fas fa-robot
   items:
