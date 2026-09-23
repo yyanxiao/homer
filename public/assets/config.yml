@@ -207,6 +207,11 @@ services:
     subtitle: 硅谷顶尖 AI 自主编程平台，提供 Droid 自动化软件研发与多模型协同。
     target: _blank
     tag: AI
+  - name: Tavily AI 搜索引擎
+    url: https://www.tavily.com/
+    subtitle: 专为 AI Agent 与大模型设计的全网搜索 API，提供高信噪比实时事实检索与信息提取。
+    target: _blank
+    tag: AI
 - name: Hermes
   icon: fas fa-cubes
   items:
