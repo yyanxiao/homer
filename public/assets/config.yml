@@ -212,6 +212,11 @@ services:
     subtitle: 专为 AI Agent 与大模型设计的全网搜索 API，提供高信噪比实时事实检索与信息提取。
     target: _blank
     tag: AI
+  - name: Agnes AI 全模态模型平台
+    url: https://agnes-ai.com/
+    subtitle: 前沿全模态基础模型平台，提供文本、图像、视频顶尖 AI 模型与免费 API。
+    target: _blank
+    tag: AI
 - name: Hermes
   icon: fas fa-cubes
   items:
