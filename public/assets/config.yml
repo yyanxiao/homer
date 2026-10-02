@@ -250,6 +250,11 @@ services:
     subtitle: Hermes Agent 官方技能（Skill）开发与安装指南，涵盖技能目录与最佳实践。
     target: _blank
     tag: 文档
+  - name: Awesome MCP Servers 中文精选列表
+    url: https://github.com/punkpeye/awesome-mcp-servers/blob/main/README-zh.md
+    subtitle: 精选高质量 MCP 服务端与生态资源，助力 Agent 扩展工具能力。
+    tag: Github
+    target: _blank
 - name: 技术开发
   icon: fas fa-code
   items:
