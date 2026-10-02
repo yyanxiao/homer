@@ -455,6 +455,11 @@ services:
     url: https://www.dataroma.com/m/home.php
     subtitle: 跟踪巴菲特、芒格、阿克曼等华尔街超级投资经理及知名基金的实时买入与最新美股持仓变动。
     target: _blank
+  - name: FastBull 实时行情与财经资讯
+    url: https://www.fastbull.com/cn/
+    subtitle: 全球金融资讯与图表终端，提供外汇、大宗商品、股票实时行情与财经日历。
+    tag: 金融
+    target: _blank
   - name: FiNews 财经新闻聚合
     url: https://finews.elsetech.app/
     subtitle: 高效的全球金融与财经新闻聚合阅读平台，帮助投资者快速获取市场动态与资讯。
