@@ -169,6 +169,11 @@ services:
     subtitle: 优质高清影视资源汇总与分享平台，提供电影、剧集及网盘资源索引。
     target: _blank
     tag: 影视
+  - name: APKPure 安卓应用与游戏下载
+    url: https://apkpure.com/cn/
+    subtitle: 知名第三方 Android 应用与游戏市场，提供纯净原版 APK/XAPK 安装包直接下载。
+    target: _blank
+    tag: 工具
 - name: AI 工具
   icon: fas fa-robot
   items:
