@@ -399,6 +399,11 @@ services:
     subtitle: 基于 Cron 的哨兵监控服务，当备份或定期计划任务未按时运行或失败时发送警报。
     target: _blank
     tag: 监控
+  - name: Public APIs 免费公共接口清单
+    url: https://github.com/public-apis/public-apis
+    subtitle: 全球知名开源免费公共 API 集合列表，涵盖开发、金融、天气等数十个领域。
+    target: _blank
+    tag: Github
 - name: 阅读资讯
   icon: fas fa-book-open
   items:
