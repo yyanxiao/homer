@@ -404,6 +404,11 @@ services:
     subtitle: 全球知名开源免费公共 API 集合列表，涵盖开发、金融、天气等数十个领域。
     target: _blank
     tag: Github
+  - name: CleanYourTV 智能电视去广告与极简桌面
+    url: https://github.com/Gathin23/cleanyourtv
+    subtitle: 通过 Wi-Fi 与 ADB 一键清理 Android/Google TV 臃肿自带软件与广告，换上类 Apple TV 极简桌面。
+    tag: Github
+    target: _blank
 - name: 阅读资讯
   icon: fas fa-book-open
   items:
