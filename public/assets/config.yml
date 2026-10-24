@@ -409,6 +409,11 @@ services:
     subtitle: 通过 Wi-Fi 与 ADB 一键清理 Android/Google TV 臃肿自带软件与广告，换上类 Apple TV 极简桌面。
     tag: Github
     target: _blank
+  - name: Aerial 国产电视无广告开源桌面
+    url: https://github.com/pengchujin/aerial-tv
+    subtitle: 参照 tvOS 设计的开源 Android TV 桌面，无广告带航拍屏保，专为小米、TCL 等电视打造。
+    tag: Github
+    target: _blank
 - name: 阅读资讯
   icon: fas fa-book-open
   items:
