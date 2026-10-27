@@ -414,6 +414,16 @@ services:
     subtitle: 参照 tvOS 设计的开源 Android TV 桌面，无广告带航拍屏保，专为小米、TCL 等电视打造。
     tag: Github
     target: _blank
+  - name: AdGuard DNS 隐私与广告拦截服务
+    url: https://adguard-dns.io/
+    subtitle: 专业的公共及自定义 DNS 服务，强力拦截全网广告、追踪器与恶意钓鱼网站。
+    tag: 网络
+    target: _blank
+  - name: NextDNS 个性化安全云端DNS
+    url: https://nextdns.io/
+    subtitle: 现代云端防火墙与智能 DNS 服务，支持细粒度拦截规则、隐私分析与家长控制。
+    tag: 网络
+    target: _blank
 - name: 阅读资讯
   icon: fas fa-book-open
   items:
