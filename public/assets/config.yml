@@ -516,6 +516,11 @@ services:
     subtitle: 参照 tvOS 设计的开源 Android TV 桌面，无广告带航拍屏保，专为小米、TCL 等电视打造。
     tag: Github
     target: _blank
+  - name: Youno 高码率追新 Emby 服
+    url: https://wiki.2211111.xyz/
+    subtitle: 基于美西网盘的高码率 Emby 公益及公费服，提供热门影视多版本追新。
+    tag: 影视
+    target: _blank
 - name: 全球地图与实时雷达
   icon: fas fa-globe-americas
   items:
