@@ -521,6 +521,11 @@ services:
     subtitle: 基于美西网盘的高码率 Emby 公益及公费服，提供热门影视多版本追新。
     tag: 影视
     target: _blank
+  - name: 91淘片 线路测速与在线影视
+    url: https://www.91taopian.com/
+    subtitle: 在线影视导航与分流入口，提供多节点测速与快捷观影通道。
+    tag: 影视
+    target: _blank
 - name: 全球地图与实时雷达
   icon: fas fa-globe-americas
   items:
