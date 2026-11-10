@@ -660,3 +660,8 @@ services:
     subtitle: 全球领先的实时社交媒体与资讯获取平台，紧跟行业前沿资讯。
     target: _blank
     tag: 论坛
+  - name: Hacker News 极客技术社区
+    url: https://news.ycombinator.com/
+    subtitle: YC 旗下全球知名极客社区，汇集计算机科学与创业前沿资讯。
+    target: _blank
+    tag: 资讯
