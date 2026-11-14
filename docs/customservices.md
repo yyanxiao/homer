@@ -14,6 +14,7 @@ Available services are located in `src/components/`:
 
 - [Common options](#common-options)
 - [AdGuard Home](#adguard-home)
+- [Beszel](#beszel)
 - [CopyToClipboard](#copy-to-clipboard)
 - [Docuseal](#docuseal)
 - [Docker Socket Proxy](#docker-socket-proxy)
@@ -34,6 +35,7 @@ Available services are located in `src/components/`:
 - [Matrix](#matrix)
 - [Mealie](#mealie)
 - [Medusa](#medusa)
+- [Memos](#memos)
 - [Miniflux](#miniflux)
 - [Mylar](#mylar)
 - [NetAlertx](#netalertx)
@@ -119,6 +121,29 @@ Displays AdGuard Home protection status and blocked query statistics.
 > headers:  
 >   Authorization: "Basic <base64-encoded for username:password>"
 > ```
+
+## Beszel
+
+Displays the status of a system monitored by [Beszel](https://beszel.dev/) (online, offline, paused or pending), with its CPU, memory and disk usage.
+
+```yaml
+- name: "Beszel"
+  type: "Beszel"
+  logo: "assets/tools/sample.png"
+  url: https://my-beszel.url
+  api_token: "<---insert-token-here--->"
+  system: "my-server-name" # Optional: system name or id. Defaults to the first system by name.
+  hide: [] # Optional: hides "cpu", "mem", "disk".
+```
+
+**Getting an `api_token`**: Beszel has no API keys and only returns systems to signed-in users, so the card authenticates with a user token. Since `config.yml` can be read by anyone who can open Homer, use a dedicated read-only user and a token that can't be refreshed:
+
+1. **Create a read-only user.** In the PocketBase admin panel of your hub (`https://my-beszel.url/_/`, superuser account required), open the `users` collection and add a new user with the `readonly` role.
+2. **Share the systems to monitor with it.** In the `systems` collection, open each system the card should show and add the new user to its `users` field. A read-only user only sees the systems shared with it.
+3. **Generate the token.** Back in the `users` collection, open the new user and choose **Impersonate** in the record's dropdown menu. Set the token `duration` (in seconds) explicitly: `0` falls back to the default duration, which expires after a few days. Copy the generated token into `api_token`.
+
+> [!NOTE]
+> Impersonate tokens can't be refreshed. Once one expires, generate a new one. To revoke a token early, change the read-only user's password.
 
 ## Copy to Clipboard
 
@@ -379,6 +404,7 @@ This integration supports at max 15 results from Linkding, but you can add it mu
   token: "<---insert-api-key-here--->"
   limit: 10 # Maximum number of items returned by Linkding, minimal 1 and max 15
   query: "#ToDo #Homer" # query to do on Linkding. Use #tagname to search for tags
+  target: "_blank" # Optional: open bookmarks in a new tab
 ```
 
 ## LibrisLog
@@ -439,6 +465,23 @@ Displays News (gray), Warning (orange) or Error (red) notifications bubbles from
 The url must be the root url of Medusa application.
 
 **API Key**: The Medusa API key can be found in General configuration > Interface. It is needed to access Medusa API.
+
+## Memos
+
+Displays the number of memos and the version of a [Memos](https://usememos.com/) instance, with its online / offline status.
+
+```yaml
+- name: "Memos"
+  type: "Memos"
+  logo: "assets/tools/sample.png"
+  url: https://my-memos.url
+  apikey: "<---insert-access-token-here--->" # Optional: see below.
+  hide: [] # Optional: hides "memos", "version".
+```
+
+Requires Memos 26.10 or later. Older versions use a different API, and the card shows them as offline.
+
+**Access Token**: without `apikey`, a private instance shows online with its version, just without a count. The badge counts the token user's own memos (comments aren't counted). To get a token, create one in Memos under Settings > My Account > Access Tokens. Hiding `memos` skips the memo request entirely, leaving a version-only card that needs no token.
 
 ## Mylar
 
@@ -793,15 +836,10 @@ Displays the Seerr version as the subtitle, with icons next to it when an update
   logo: "assets/tools/sample.png"
   url: "http://seerr.example.com"
   apikey: "<---insert-api-key-here--->"
-  # subtitle: "Requests"  # (Optional) Overrides the version subtitle.
-  # hide: []              # (Optional) hides items. Possible values are
-  #                       # "updateAvailable", "restartRequired", "media",
-  #                       # "pending", "processing" and "issues".
+  hide: [] # Optional: hides the "updateAvailable" and "restartRequired" icons, and the "media", "pending", "processing", "issues" and "serverError" badges.
 ```
 
 **Authentication**: generate an API key under **Settings > General** in your Seerr instance. The badges need it; the version subtitle works without one.
-
-**Hiding items**: everything is shown by default; list a key under `hide` to remove it. `updateAvailable` and `restartRequired` are the two subtitle icons; `media`, `pending`, `processing` and `issues` are the four badges. Hide all six for a version-only card. Badge counts are capped at `99+`.
 
 **Available media**: counts partially available shows (those with some requested seasons still missing) alongside fully available ones.
 
